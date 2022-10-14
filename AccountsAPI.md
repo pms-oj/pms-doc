@@ -38,9 +38,10 @@ pub enum AccountError {
 Account에 지정된 권한을 나타내는 Enum이다.
 
 ```Rust
+#[repr(i32)]
 pub enum AccountPerm {
-    User,
-    Admin,
+    User = 0x00,
+    Admin = 0xFF,
 }
 ```
 

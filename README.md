@@ -12,5 +12,3 @@
 
 - [Accounts API](./AccountsAPI.md)
 - [Handshake API](./HandshakeAPI.md)
-- [RESTful API](./RESTfulAPI.md)
-- [GraphQL API](./GraphQL.md)

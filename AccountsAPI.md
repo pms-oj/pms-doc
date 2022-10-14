@@ -106,8 +106,8 @@ type RegisterRequest {
     first_name: String!
     last_name: String!
     email: String!
-    timezone: String
-    preferred_language: String
+    timezone: TimeZone
+    preferred_language: UUID
 }
 
 mutation Register($req: RegisterRequest!) {
@@ -150,9 +150,9 @@ type RegisterRequest {
     first_name: String!
     last_name: String!
     email: String!
-    timezone: String
-    preferred_language: String
-    permission: Int
+    timezone: TimeZone
+    preferred_language: UUID
+    permission: AccountPerm
 }
 
 mutation Register($req: RegisterRequest!) {

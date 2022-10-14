@@ -94,7 +94,7 @@ Token 만료기간 연장
 
 ## General (GraphQL)
 
-### `POST` /api/gql/accounts/register
+### `POST` /api/gql/accounts
 
 회원가입
 

@@ -64,7 +64,7 @@ Token 만료기간 연장
     first_name: String,
     last_name: String,
     email: String,
-    preferred_language: String,
+    preferred_language: Uuid,
 }
 ````
 

@@ -94,7 +94,7 @@ Token 만료기간 연장
 
 ## General (GraphQL)
 
-### `POST` /api/gql/accounts
+### `POST` /api/gql
 
 회원가입
 
@@ -117,7 +117,7 @@ mutation Register($req: RegisterRequest!) {
 }
 ```
 
-### `GET` /api/gql/accounts
+### `GET` /api/gql
 
 계정의 정보 가져오기
 
@@ -138,7 +138,7 @@ query Info {
 
 ## Admin Only (GraphQL)
 
-### `POST` /api/admin/gql/accounts
+### `POST` /api/gql
 
 회원가입 (관리자 권한 요구)
 

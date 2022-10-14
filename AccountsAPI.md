@@ -117,7 +117,7 @@ mutation Register($req: RegisterRequest!) {
 }
 ```
 
-### `GET` /api/gql/accounts/info
+### `GET` /api/gql/accounts
 
 계정의 정보 가져오기
 
@@ -138,7 +138,7 @@ query Info {
 
 ## Admin Only (GraphQL)
 
-### `POST` /api/admin/gql/accounts/register
+### `POST` /api/admin/gql/accounts
 
 회원가입 (관리자 권한 요구)
 

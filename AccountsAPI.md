@@ -111,7 +111,12 @@ type RegisterRequest {
 }
 
 mutation Register($req: RegisterRequest!) {
-    register(req: $req) {}
+    register(req: $req) {
+        response {
+            status
+            error
+        }
+    }
 }
 ```
 
@@ -153,7 +158,12 @@ type RegisterRequest {
 }
 
 mutation Register($req: RegisterRequest!) {
-    register(req: $req) {}
+    register(req: $req) {
+        response {
+            status
+            error
+        }
+    }
 }
 ```
 
